@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBECA5BD1B71F59500820555 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBECA5BC1B71F59500820555 /* InfoPlist.strings */; };
+		F515BD8D1B6EF1580038147E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BD8C1B6EF1580038147E /* main.m */; };
+		F515BD901B6EF1580038147E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BD8F1B6EF1580038147E /* AppDelegate.m */; };
+		F515BD981B6EF1580038147E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F515BD971B6EF1580038147E /* Assets.xcassets */; };
+		F515BD9B1B6EF1580038147E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F515BD991B6EF1580038147E /* LaunchScreen.storyboard */; };
+		F515BDA61B6EF1580038147E /* KMSplitViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDA51B6EF1580038147E /* KMSplitViewTests.m */; };
+		F515BDB11B6EF1580038147E /* KMSplitViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDB01B6EF1580038147E /* KMSplitViewUITests.m */; };
+		F515BDD91B6EF2520038147E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F515BDBF1B6EF2520038147E /* Info.plist */; };
+		F515BDDA1B6EF2520038147E /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDC11B6EF2520038147E /* MASCompositeConstraint.m */; };
+		F515BDDB1B6EF2520038147E /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDC41B6EF2520038147E /* MASConstraint.m */; };
+		F515BDDC1B6EF2520038147E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDC61B6EF2520038147E /* MASConstraintMaker.m */; };
+		F515BDDD1B6EF2520038147E /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDC81B6EF2520038147E /* MASLayoutConstraint.m */; };
+		F515BDDE1B6EF2520038147E /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDCC1B6EF2520038147E /* MASViewAttribute.m */; };
+		F515BDDF1B6EF2520038147E /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDCE1B6EF2520038147E /* MASViewConstraint.m */; };
+		F515BDE01B6EF2520038147E /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDD01B6EF2520038147E /* NSArray+MASAdditions.m */; };
+		F515BDE11B6EF2520038147E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDD31B6EF2520038147E /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		F515BDE21B6EF2520038147E /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDD51B6EF2520038147E /* View+MASAdditions.m */; };
+		F515BDE31B6EF2520038147E /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDD81B6EF2520038147E /* ViewController+MASAdditions.m */; };
+		F515BDE71B6EF6820038147E /* KMExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDE61B6EF6820038147E /* KMExampleViewController.m */; };
+		F515BDEA1B6EF90B0038147E /* KMSoureCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDE91B6EF90B0038147E /* KMSoureCodeViewController.m */; };
+		F515BDEE1B6EF92B0038147E /* KMXIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F515BDEC1B6EF92B0038147E /* KMXIBViewController.m */; };
+		F515BDEF1B6EF92B0038147E /* KMXIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F515BDED1B6EF92B0038147E /* KMXIBViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F515BDA21B6EF1580038147E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F515BD801B6EF1580038147E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F515BD871B6EF1580038147E;
+			remoteInfo = KMSplitView;
+		};
+		F515BDAD1B6EF1580038147E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F515BD801B6EF1580038147E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F515BD871B6EF1580038147E;
+			remoteInfo = KMSplitView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBECA5BC1B71F59500820555 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F515BD881B6EF1580038147E /* KMSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F515BD8C1B6EF1580038147E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F515BD8E1B6EF1580038147E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F515BD8F1B6EF1580038147E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F515BD971B6EF1580038147E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F515BD9A1B6EF1580038147E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F515BD9C1B6EF1580038147E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F515BDA11B6EF1580038147E /* KMSplitViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMSplitViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F515BDA51B6EF1580038147E /* KMSplitViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMSplitViewTests.m; sourceTree = "<group>"; };
+		F515BDA71B6EF1580038147E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F515BDAC1B6EF1580038147E /* KMSplitViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMSplitViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F515BDB01B6EF1580038147E /* KMSplitViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMSplitViewUITests.m; sourceTree = "<group>"; };
+		F515BDB21B6EF1580038147E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F515BDBF1B6EF2520038147E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F515BDC01B6EF2520038147E /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		F515BDC11B6EF2520038147E /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		F515BDC21B6EF2520038147E /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F515BDC31B6EF2520038147E /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		F515BDC41B6EF2520038147E /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		F515BDC51B6EF2520038147E /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		F515BDC61B6EF2520038147E /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		F515BDC71B6EF2520038147E /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F515BDC81B6EF2520038147E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		F515BDC91B6EF2520038147E /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		F515BDCA1B6EF2520038147E /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		F515BDCB1B6EF2520038147E /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		F515BDCC1B6EF2520038147E /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		F515BDCD1B6EF2520038147E /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		F515BDCE1B6EF2520038147E /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		F515BDCF1B6EF2520038147E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F515BDD01B6EF2520038147E /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		F515BDD11B6EF2520038147E /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F515BDD21B6EF2520038147E /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		F515BDD31B6EF2520038147E /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F515BDD41B6EF2520038147E /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		F515BDD51B6EF2520038147E /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		F515BDD61B6EF2520038147E /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F515BDD71B6EF2520038147E /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		F515BDD81B6EF2520038147E /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		F515BDE51B6EF6820038147E /* KMExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMExampleViewController.h; sourceTree = "<group>"; };
+		F515BDE61B6EF6820038147E /* KMExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMExampleViewController.m; sourceTree = "<group>"; };
+		F515BDE81B6EF90B0038147E /* KMSoureCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSoureCodeViewController.h; sourceTree = "<group>"; };
+		F515BDE91B6EF90B0038147E /* KMSoureCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSoureCodeViewController.m; sourceTree = "<group>"; };
+		F515BDEB1B6EF92B0038147E /* KMXIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMXIBViewController.h; sourceTree = "<group>"; };
+		F515BDEC1B6EF92B0038147E /* KMXIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMXIBViewController.m; sourceTree = "<group>"; };
+		F515BDED1B6EF92B0038147E /* KMXIBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMXIBViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F515BD851B6EF1580038147E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F515BD9E1B6EF1580038147E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F515BDA91B6EF1580038147E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F515BD7F1B6EF1580038147E = {
+			isa = PBXGroup;
+			children = (
+				F515BD8A1B6EF1580038147E /* KMSplitView */,
+				F515BDA41B6EF1580038147E /* KMSplitViewTests */,
+				F515BDAF1B6EF1580038147E /* KMSplitViewUITests */,
+				F515BD891B6EF1580038147E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F515BD891B6EF1580038147E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F515BD881B6EF1580038147E /* KMSplitView.app */,
+				F515BDA11B6EF1580038147E /* KMSplitViewTests.xctest */,
+				F515BDAC1B6EF1580038147E /* KMSplitViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F515BD8A1B6EF1580038147E /* KMSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				F515BD8E1B6EF1580038147E /* AppDelegate.h */,
+				F515BD8F1B6EF1580038147E /* AppDelegate.m */,
+				F515BDE41B6EF6480038147E /* Classes */,
+				F515BD971B6EF1580038147E /* Assets.xcassets */,
+				F515BD991B6EF1580038147E /* LaunchScreen.storyboard */,
+				F515BD9C1B6EF1580038147E /* Info.plist */,
+				BBECA5BC1B71F59500820555 /* InfoPlist.strings */,
+				F515BDBE1B6EF2520038147E /* Masonry */,
+				F515BD8B1B6EF1580038147E /* Supporting Files */,
+			);
+			path = KMSplitView;
+			sourceTree = "<group>";
+		};
+		F515BD8B1B6EF1580038147E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F515BD8C1B6EF1580038147E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F515BDA41B6EF1580038147E /* KMSplitViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F515BDA51B6EF1580038147E /* KMSplitViewTests.m */,
+				F515BDA71B6EF1580038147E /* Info.plist */,
+			);
+			path = KMSplitViewTests;
+			sourceTree = "<group>";
+		};
+		F515BDAF1B6EF1580038147E /* KMSplitViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F515BDB01B6EF1580038147E /* KMSplitViewUITests.m */,
+				F515BDB21B6EF1580038147E /* Info.plist */,
+			);
+			path = KMSplitViewUITests;
+			sourceTree = "<group>";
+		};
+		F515BDBE1B6EF2520038147E /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F515BDBF1B6EF2520038147E /* Info.plist */,
+				F515BDC01B6EF2520038147E /* MASCompositeConstraint.h */,
+				F515BDC11B6EF2520038147E /* MASCompositeConstraint.m */,
+				F515BDC21B6EF2520038147E /* MASConstraint+Private.h */,
+				F515BDC31B6EF2520038147E /* MASConstraint.h */,
+				F515BDC41B6EF2520038147E /* MASConstraint.m */,
+				F515BDC51B6EF2520038147E /* MASConstraintMaker.h */,
+				F515BDC61B6EF2520038147E /* MASConstraintMaker.m */,
+				F515BDC71B6EF2520038147E /* MASLayoutConstraint.h */,
+				F515BDC81B6EF2520038147E /* MASLayoutConstraint.m */,
+				F515BDC91B6EF2520038147E /* Masonry.h */,
+				F515BDCA1B6EF2520038147E /* MASUtilities.h */,
+				F515BDCB1B6EF2520038147E /* MASViewAttribute.h */,
+				F515BDCC1B6EF2520038147E /* MASViewAttribute.m */,
+				F515BDCD1B6EF2520038147E /* MASViewConstraint.h */,
+				F515BDCE1B6EF2520038147E /* MASViewConstraint.m */,
+				F515BDCF1B6EF2520038147E /* NSArray+MASAdditions.h */,
+				F515BDD01B6EF2520038147E /* NSArray+MASAdditions.m */,
+				F515BDD11B6EF2520038147E /* NSArray+MASShorthandAdditions.h */,
+				F515BDD21B6EF2520038147E /* NSLayoutConstraint+MASDebugAdditions.h */,
+				F515BDD31B6EF2520038147E /* NSLayoutConstraint+MASDebugAdditions.m */,
+				F515BDD41B6EF2520038147E /* View+MASAdditions.h */,
+				F515BDD51B6EF2520038147E /* View+MASAdditions.m */,
+				F515BDD61B6EF2520038147E /* View+MASShorthandAdditions.h */,
+				F515BDD71B6EF2520038147E /* ViewController+MASAdditions.h */,
+				F515BDD81B6EF2520038147E /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		F515BDE41B6EF6480038147E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F515BDE51B6EF6820038147E /* KMExampleViewController.h */,
+				F515BDE61B6EF6820038147E /* KMExampleViewController.m */,
+				F515BDE81B6EF90B0038147E /* KMSoureCodeViewController.h */,
+				F515BDE91B6EF90B0038147E /* KMSoureCodeViewController.m */,
+				F515BDEB1B6EF92B0038147E /* KMXIBViewController.h */,
+				F515BDEC1B6EF92B0038147E /* KMXIBViewController.m */,
+				F515BDED1B6EF92B0038147E /* KMXIBViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F515BD871B6EF1580038147E /* KMSplitView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F515BDB51B6EF1580038147E /* Build configuration list for PBXNativeTarget "KMSplitView" */;
+			buildPhases = (
+				F515BD841B6EF1580038147E /* Sources */,
+				F515BD851B6EF1580038147E /* Frameworks */,
+				F515BD861B6EF1580038147E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMSplitView;
+			productName = KMSplitView;
+			productReference = F515BD881B6EF1580038147E /* KMSplitView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F515BDA01B6EF1580038147E /* KMSplitViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F515BDB81B6EF1580038147E /* Build configuration list for PBXNativeTarget "KMSplitViewTests" */;
+			buildPhases = (
+				F515BD9D1B6EF1580038147E /* Sources */,
+				F515BD9E1B6EF1580038147E /* Frameworks */,
+				F515BD9F1B6EF1580038147E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F515BDA31B6EF1580038147E /* PBXTargetDependency */,
+			);
+			name = KMSplitViewTests;
+			productName = KMSplitViewTests;
+			productReference = F515BDA11B6EF1580038147E /* KMSplitViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F515BDAB1B6EF1580038147E /* KMSplitViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F515BDBB1B6EF1580038147E /* Build configuration list for PBXNativeTarget "KMSplitViewUITests" */;
+			buildPhases = (
+				F515BDA81B6EF1580038147E /* Sources */,
+				F515BDA91B6EF1580038147E /* Frameworks */,
+				F515BDAA1B6EF1580038147E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F515BDAE1B6EF1580038147E /* PBXTargetDependency */,
+			);
+			name = KMSplitViewUITests;
+			productName = KMSplitViewUITests;
+			productReference = F515BDAC1B6EF1580038147E /* KMSplitViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F515BD801B6EF1580038147E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = kdanmobile;
+				TargetAttributes = {
+					F515BD871B6EF1580038147E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F515BDA01B6EF1580038147E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F515BD871B6EF1580038147E;
+					};
+					F515BDAB1B6EF1580038147E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F515BD871B6EF1580038147E;
+					};
+				};
+			};
+			buildConfigurationList = F515BD831B6EF1580038147E /* Build configuration list for PBXProject "KMSplitView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F515BD7F1B6EF1580038147E;
+			productRefGroup = F515BD891B6EF1580038147E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F515BD871B6EF1580038147E /* KMSplitView */,
+				F515BDA01B6EF1580038147E /* KMSplitViewTests */,
+				F515BDAB1B6EF1580038147E /* KMSplitViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F515BD861B6EF1580038147E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F515BDD91B6EF2520038147E /* Info.plist in Resources */,
+				F515BD9B1B6EF1580038147E /* LaunchScreen.storyboard in Resources */,
+				F515BDEF1B6EF92B0038147E /* KMXIBViewController.xib in Resources */,
+				F515BD981B6EF1580038147E /* Assets.xcassets in Resources */,
+				BBECA5BD1B71F59500820555 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F515BD9F1B6EF1580038147E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F515BDAA1B6EF1580038147E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F515BD841B6EF1580038147E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F515BDE11B6EF2520038147E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F515BDDF1B6EF2520038147E /* MASViewConstraint.m in Sources */,
+				F515BDDA1B6EF2520038147E /* MASCompositeConstraint.m in Sources */,
+				F515BDE01B6EF2520038147E /* NSArray+MASAdditions.m in Sources */,
+				F515BD901B6EF1580038147E /* AppDelegate.m in Sources */,
+				F515BDDD1B6EF2520038147E /* MASLayoutConstraint.m in Sources */,
+				F515BDEA1B6EF90B0038147E /* KMSoureCodeViewController.m in Sources */,
+				F515BDEE1B6EF92B0038147E /* KMXIBViewController.m in Sources */,
+				F515BD8D1B6EF1580038147E /* main.m in Sources */,
+				F515BDE31B6EF2520038147E /* ViewController+MASAdditions.m in Sources */,
+				F515BDE21B6EF2520038147E /* View+MASAdditions.m in Sources */,
+				F515BDE71B6EF6820038147E /* KMExampleViewController.m in Sources */,
+				F515BDDE1B6EF2520038147E /* MASViewAttribute.m in Sources */,
+				F515BDDB1B6EF2520038147E /* MASConstraint.m in Sources */,
+				F515BDDC1B6EF2520038147E /* MASConstraintMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F515BD9D1B6EF1580038147E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F515BDA61B6EF1580038147E /* KMSplitViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F515BDA81B6EF1580038147E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F515BDB11B6EF1580038147E /* KMSplitViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F515BDA31B6EF1580038147E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F515BD871B6EF1580038147E /* KMSplitView */;
+			targetProxy = F515BDA21B6EF1580038147E /* PBXContainerItemProxy */;
+		};
+		F515BDAE1B6EF1580038147E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F515BD871B6EF1580038147E /* KMSplitView */;
+			targetProxy = F515BDAD1B6EF1580038147E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F515BD991B6EF1580038147E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F515BD9A1B6EF1580038147E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F515BDB31B6EF1580038147E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F515BDB41B6EF1580038147E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F515BDB61B6EF1580038147E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KMSplitView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdanmobile.KMSplitView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F515BDB71B6EF1580038147E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KMSplitView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdanmobile.KMSplitView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		F515BDB91B6EF1580038147E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KMSplitViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdanmobile.KMSplitViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMSplitView.app/KMSplitView";
+			};
+			name = Debug;
+		};
+		F515BDBA1B6EF1580038147E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KMSplitViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdanmobile.KMSplitViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMSplitView.app/KMSplitView";
+			};
+			name = Release;
+		};
+		F515BDBC1B6EF1580038147E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KMSplitViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdanmobile.KMSplitViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KMSplitView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F515BDBD1B6EF1580038147E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KMSplitViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdanmobile.KMSplitViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KMSplitView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F515BD831B6EF1580038147E /* Build configuration list for PBXProject "KMSplitView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F515BDB31B6EF1580038147E /* Debug */,
+				F515BDB41B6EF1580038147E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F515BDB51B6EF1580038147E /* Build configuration list for PBXNativeTarget "KMSplitView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F515BDB61B6EF1580038147E /* Debug */,
+				F515BDB71B6EF1580038147E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F515BDB81B6EF1580038147E /* Build configuration list for PBXNativeTarget "KMSplitViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F515BDB91B6EF1580038147E /* Debug */,
+				F515BDBA1B6EF1580038147E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F515BDBB1B6EF1580038147E /* Build configuration list for PBXNativeTarget "KMSplitViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F515BDBC1B6EF1580038147E /* Debug */,
+				F515BDBD1B6EF1580038147E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F515BD801B6EF1580038147E /* Project object */;
+}
